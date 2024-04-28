@@ -92,31 +92,6 @@ li {
 .filters span.active {
   color: #f4acb7;
 }
-
-.controls .clear-btn {
-  border: none;
-  opacity: 0.6;
-  outline: none;
-  color: #fff;
-  cursor: pointer;
-  font-size: 13px;
-  padding: 7px 13px;
-  border-radius: 4px;
-  letter-spacing: 0.3px;
-  pointer-events: none;
-  transition: transform 0.25s ease;
-  background: linear-gradient(135deg, #f067b4 0%, #e74c3c 100%);
-}
-
-.clear-btn.active {
-  opacity: 0.9;
-  pointer-events: auto;
-}
-
-.clear-btn:active {
-  transform: scale(0.93);
-}
-
 .task-box {
   margin-top: 20px;
   margin-right: 5px;
@@ -266,8 +241,6 @@ li {
     margin-top: 4px;
   }
 }
-
-/* Additional styles for completion percentage text */
 .summary{
   text-align: center;
   margin-top: 20px;
